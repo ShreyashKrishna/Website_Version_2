@@ -13,16 +13,30 @@
      <link rel="stylesheet" href="../css/jumbowall.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/backg.css">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script rc="js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .col{
+            overflow: hidden;
+        }
+        img
+        {
+            -webkit-transition:all 0.5s ease;
+        }
+        img:hover{
+            transform: scale(1.3);
+        }
+    </style>
 </head>
 <body>
 <div class="bg">
 <div class="container-fluid">
 
 
-    <div class="jumbotron img-fluid" margin="40px">
+    <div class="jumbotron img-fluid" margin="60px">
         <div class="row">
             <div class="col-md-6" style="background-color: transparent">
-                <img src="profile.jpeg" class="thumbnail">
+                <img src="profile.jpeg" class="img-responsive" alt="chaina">
                 <h2><mark>Shreyash Krishna,
                     B.Sc. Computer Science
                 </mark>
@@ -30,26 +44,46 @@
                 </h2>
             </div>
             <div class="col-md-6" style="background-color: transparent">
-                <img src="ashoka.jpg" class="img-responsive center-block">
+                <a href="https://www.ashoka.edu.in/"><img src="ashoka.jpg" class="img-responsive center-block"></a>
             </div>
         </div>
     </div>
 
-    <div class="row text-center" style="padding-top: 20px">
+    <div class="row text-center" style="padding-top: 20px" >
 
-        <a href="#"> <i style="padding-left:20px; color: #d6d8db;" class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+        <a href="https://github.com/ShreyashKrishna"> <i style="padding-left:20px; color: #000000;" class="fa fa-github fa-3x" aria-hidden="true"></i></a>
 
-        <a href="#"> <i style="padding-left:20px; color: #d6d8db" class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/shreyash.krishna"> <i style="padding-left:20px; color: #3b5998" class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
 
-        <a href="#"> <i style="padding-left:20px; color: #d6d8db" class="fa fa-linkedin fa-3x" ></i></a>
+        <a href="https://www.linkedin.com/in/shreyash-krishna/"> <i style="padding-left:20px; color: #007bb5" class="fa fa-linkedin fa-3x" ></i></a>
     </div>
     <div class="row text-center" style="padding-top: 20px">
-        <a class="btn btn-success" href="#" style="padding-top:0%">
+        <a class="btn btn-success" href="Shreyash%20Krishna_Ashoka%20University.pdf" style="padding-top:0%">
             Resume
         </a>
     </div>
+    <div class="row text-center" style="padding-top: 20px">
+        <div class="col-md-4" >
+            <div class="thumbnail">
+                <a href="https://peerj.com/preprints/3518.pdf"><img src="Autograde.png"></a>
+                <p class="caption"><mark> Research Project: </mark>An Empirical Analysis of Automatic Essay Grading</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="https://github.com/ShreyashKrishna/Twitter-Sentiment-analysis"> <img src="Sentiment.png"></a>
+                <p class="caption"><mark>Twitter Sentiment Analysis</mark></p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="https://github.com/ShreyashKrishna/Elections-Report-Parser"> <img src="Parser.png"></a>
+                <p class="caption"><mark>Election Report Parser</mark></p>
+            </div>
+        </div>
 
 
 </div></div>
+</div>
 </body>
 </html>

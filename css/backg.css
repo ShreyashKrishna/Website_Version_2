@@ -6,10 +6,17 @@ body, html {
     background-image: url(walls.jpg);
 
     /* Full height */
-    height: 100%;
+    height: auto;
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.row{
+    text-align: center;
+}
+.col-md-4 {
+
+    border-radius: 15px 0 0 15px;
 }
